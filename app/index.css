@@ -20,14 +20,14 @@ body {
 
 h1,
 h2 {
-  font-family: "Sacramento", cursive;
+  font-family:"Roboto Slab", serif;
   font-size: 4rem;
    
   text-align: center;
 }
 h3,
 h4 {
-  font-family:  "Sacramento", cursive;
+  font-family: "Roboto Slab", serif;
   font-size: 3.em;
    
   text-align: center;
@@ -179,6 +179,17 @@ a:hover {
   font-size: 3.6rem;
 }
 
+.icon{
+  position: relative;
+  top: 7px;
+  margin-right: 5px;
+  width: 25px;  
+  height: 25px;
+  font-weight: bold;
+}
+
+
+
 @media screen and (max-width: 600px) {
   #first {
     display: block;
@@ -215,5 +226,20 @@ a:hover {
   }
   body{
     padding: 0;
+  }
+
+  #name{
+    font-size: 2.3rem;
+    text-wrap: nowrap;
+    
+  }
+
+  .cs{
+    font-size: 1.8rem;
+    text-wrap: nowrap;
+  }
+  
+  .email{
+    text-wrap: nowrap;
   }
 }
